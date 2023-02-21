@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgb(0, 0, 0);
+  width: 50vw;
+  height: 70vh;
+  margin-left: 25%;
+  margin-top: 7%;
+  border-radius: 10%;
+}
+.result{
+  border-radius: 30%;
+}
+
+.digits-box {
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height:25%;
+  flex: 1 0 auto;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(20, 20, 20);
+  border: none;
+}
+.btn.sinal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 25%;
+  flex: 1 0 auto;
+  font-size: 40px;
+  color: rgb(98, 0, 255);
+  background-color: rgb(20, 20, 20);
+  border: none;
+}
+
+.selected {
+  color: rgb(255, 255, 255);
+  background-color: rgb(98, 0, 255);
+  border: 1px solid black;
+  display: flex;
+  width: 25%;
+  height: 25%;
+  flex: 1 0 auto;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.num {
+  font-size: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 9.2%;
+  color: rgb(255, 255, 255);
+}
+@media (max-width: 1000px){
+  .box {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0%;
+    margin-top: 0%;
+    border-radius: 0%;
+  }
+  .digits-box {
+    width: 101%;
+    height: 60%;
+  }
+  
+  .btn{
+    width: 203px;
+    height: 140px;
+    font-size: 40px;
+  }
+  .btn.sinal{
+    width: 203px;
+    height: 140px;
+    font-size: 40px;
+  }
+  
+  .selected {
+    width: 100px;
+    height: 140px;
+    font-size: 40px;
+  }
+  
+  .num {
+    font-size: 100px;
+    margin: 9.2%;
+  }
+}
+@media (max-width: 803px){
+  .box {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0%;
+    margin-top: 0%;
+    border-radius: 0%;
+  }
+  .digits-box {
+    width: 101%;
+    height: 60%;
+  }
+  
+  .btn{
+    width: 180px;
+    height: 140px;
+    font-size: 40px;
+  }
+  .btn.sinal{
+    width: 180px;
+    height: 140px;
+    font-size: 40px;
+  }
+  
+  .selected {
+    width: 200px;
+    height: 140px;
+    font-size: 40px;
+  }
+  
+  .num {
+    font-size: 100px;
+    margin: 9.2%;
+  }
+}
+@media (max-width: 768px){
+  .box {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0%;
+    margin-top: 0%;
+    border-radius: 0%;
+  }
+  .digits-box {
+    width: 101%;
+    height: 60%;
+  }
+  .btn{
+    width: 165px;
+    height: 140px;
+    font-size: 40px;
+  }
+  .btn.sinal{
+    width: 165px;
+    height: 140px;
+    font-size: 40px;
+  }
+  .selected {
+    width: 180px;
+    height: 140px;
+    font-size: 40px;
+  }
+  .num {
+    font-size: 100px;
+    margin: 9.2%;
+  }
+}
+@media (max-width: 428px){
+  .box {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0%;
+    margin-top: 0%;
+    border-radius: 0%;
+  }
+  .digits-box {
+    width: 101%;
+    height: 60%;
+  }
+  
+  .btn{
+    width: 95px;
+    height: 95px;
+    font-size: 30px;
+  }
+  .btn.sinal{
+    width: 95px;
+    height: 95px;
+    font-size: 30px;
+  }
+  
+  .selected {
+    width: 81px;
+    height: 81px;
+    font-size: 30px;
+  }
+  
+  .num {
+    font-size: 80px;
+    margin: 1.8%;
+  }
+}
+@media (max-width: 400px){
+  .box {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0%;
+    margin-top: 0%;
+    border-radius: 0%;
+  }
+.digits-box {
+  width: 101%;
+  height: 60%;
+}
+
+.btn{
+  width: 81px;
+  height: 81px;
+  font-size: 30px;
+}
+.btn.sinal{
+  width: 81px;
+  height: 81px;
+  font-size: 30px;
+}
+
+.selected {
+  width: 81px;
+  height: 81px;
+  font-size: 30px;
+}
+
+.num {
+  font-size: 80px;
+  margin: 1.3%;
+}
+}
+@media (max-width: 320px){
+  .box {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0%;
+    margin-top: 0%;
+    border-radius: 0%;
+  }
+.digits-box {
+  width: 101%;
+  height: 60%;
+}
+
+.btn{
+  width: 71px;
+  height: 61px;
+  font-size: 30px;
+}
+.btn.sinal{
+  width: 71px;
+  height: 61px;
+  font-size: 30px;
+}
+
+.selected {
+  width: 81px;
+  height: 81px;
+  font-size: 30px;
+}
+
+.num {
+  font-size: 50px;
+  margin: 5.3%;
+}
+}
